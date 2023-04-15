@@ -35,6 +35,8 @@ Once the installation is completed, let's open any Office apps. As you can see, 
 ![Command-Prompt](https://raw.githubusercontent.com/21Z/Microsoft-Office-2021/main/assets/Command-Prompt.jpg)
 
 **Step 2:** Copy all below commands, **right click to paste into cmd window** at once then hit Enter.
+**If you have yoou own key, you can open bat file and edit it, change:
+**FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH** for you own key,and save file.
 
 ```
 if exist "C:\Program Files\Microsoft Office\Office16\ospp.vbs" cd /d "C:\Program Files\Microsoft Office\Office16"
@@ -57,5 +59,3 @@ pause
 Finally, check the activation status of **Microsoft Office 2021**. Congratulations! The activation was completed successfully.
 
 ![Activation Complete](https://raw.githubusercontent.com/21Z/Microsoft-Office-2021/main/assets/Activated.jpg)
-
-KMS credits: https://msgang.com
