@@ -59,3 +59,9 @@ pause
 Finally, check the activation status of **Microsoft Office 2021**. Congratulations! The activation was completed successfully.
 
 ![Activation Complete](https://raw.githubusercontent.com/21Z/Microsoft-Office-2021/main/assets/Activated.jpg)
+
+**Frequent errors**
+
+Error 0xC004F074 (“The Key Management Service (KMS) is unavailable”): In most cases it refers to incorrectly set time or the time zone.
+
+Error 0xC004F035 and 0xC004F059: Especially for computers that were originally acquired with an OEM operating system, in this case the KMS activation is prevented by computer's BIOS. Such BIOS version contains an invalid ACPI_SLIC table. The KMS activation expect here a so-called “Windows marker” and fails if it is corrupted or not found. This error can usually be resolved by a BIOS update. 
